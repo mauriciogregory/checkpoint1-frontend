@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/7720527.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 40px;
+    background-color: grey;
+    color: white;
+    /* border-radius: 30px; */
+    opacity: 0.6;
+}
+
+.descricao {
+    display: block;
+    padding: 20px 20px;
+    text-align: justify;
+
+}
+
+.video {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.curiosidades {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul {
+    opacity: 0.9;
+}
+
+#copy {
+    text-align: center;
+    display: block;
+}
+
+footer {
+    padding: 40px 0;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* #midias {
+    text-align: center;
+} */
+/* 
+li {
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+} */
+
+.curiosidade-ul {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.curiosidade-ul li {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 49%;
+    height: 70%;
+}
+
+.img-item {
+    width: 70%;
+}
+
+.logo {
+    width: 4%;
+    text-align: center;
+
+}
+
+#midias {
+    text-align: center;
+}
